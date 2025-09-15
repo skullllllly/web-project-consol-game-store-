@@ -214,13 +214,15 @@ html,body{
    font-size: 20px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: #ffffff;
-   background-color: rgba(142, 142, 244, 0.881);
+   background-color: rgba(119, 170, 246, 0.986);
    border-radius: 20px;
    
 }
 
 .view_game1:hover,.view_game2:hover,.view_game3:hover{
     color: #4b26f3;
+    background-color: #8e8ef4;
+    transition: 0.2s ease-in-out;
 }
 .view_game1:active,.view_game2:active,.view_game3:active{
     color: rgb(141, 203, 255);
@@ -382,7 +384,7 @@ html,body{
     font-size: 13px;
     position: relative;
     top:-20px;
-    right: -20px;
+    right:-20px;
     
 }
 .tt 
@@ -390,8 +392,8 @@ html,body{
     display: flex;
     flex-direction: row;
     position: relative;
-    right: -1px;
-    bottom: -2px;
+    right: -10px;
+    bottom:-2px;
     
 }  
 

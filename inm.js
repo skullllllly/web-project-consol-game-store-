@@ -1,10 +1,17 @@
-function checkPassword() { // الكود لم يعمل معي لا اعلم لماذا:(
-  const emailinput = document.getElementById("email");
-  const emailvalue = passwordInput.value;
+const emailinput=
+document.getElementById("email");
 
-  if (!emailvalue.includes("@")) {
+emailinput.addEventListener("input",
+function() { // الكود لم يعمل معي لا اعلم لماذا:(
+ 
+  if (!emailvalue.includes("@"))
+  {
     emailinput.classList.add("error");
-  } else {
+  
+   
+  }
+  else {
     emailinput.classList.remove("error");
   }
-}
+});
+
