@@ -1,6 +1,6 @@
 #Console Games Store
 
-This is my first web project uploaded on GitHub.  
+This is my first web project uploaded on GitHub   
 It is a **simple console games store** (PlayStation, Xbox) where users can browse games and view basic details.
 
 ## Project Goals
